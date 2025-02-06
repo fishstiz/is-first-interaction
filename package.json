@@ -1,7 +1,7 @@
 {
-  "name": "first-interaction-action",
-  "version": "1.3.0",
-  "description": "An action for greeting first time contributors.",
+  "name": "is-first-interaction-action",
+  "version": "1.3.0+isfirst",
+  "description": "An action that checks and greets if first time contributor",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -20,6 +20,7 @@
     "interaction"
   ],
   "author": "GitHub",
+  "contributors": ["fishstiz"],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/actions/first-interaction/issues"

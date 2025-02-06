@@ -57,7 +57,7 @@ async function run() {
     }
     if (!firstContribution) {
       // console.log('Not the users first contribution');
-      throw new Error('Not the users first contribution');
+      throw new Error('Failed: Not the users first contribution');
     }
 
     // Do nothing if no message set for this type of contribution
@@ -87,6 +87,7 @@ async function run() {
       });
     }
   } catch (error) {
+    console.log('why not fail');
     core.setFailed((error as any).message);
     return;
   }

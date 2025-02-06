@@ -5,11 +5,11 @@ async function run() {
   try {
     const issueMessage: string = core.getInput('issue-message');
     const prMessage: string = core.getInput('pr-message');
-    if (!issueMessage && !prMessage) {
-      throw new Error(
-        'Action must have at least one of issue-message or pr-message set'
-      );
-    }
+    // if (!issueMessage && !prMessage) {
+    //   throw new Error(
+    //     'Action must have at least one of issue-message or pr-message set'
+    //   );
+    // }
     // Get client and context
     const client = github.getOctokit(
       core.getInput('repo-token', {required: true})

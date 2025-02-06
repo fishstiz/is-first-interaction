@@ -16,10 +16,10 @@ async function run() {
     );
     const context = github.context;
 
-    if (context.payload.action !== 'opened') {
-      console.log('No issue or PR was opened, skipping');
-      return;
-    }
+    // if (context.payload.action !== 'opened') {
+    //   console.log('No issue or PR was opened, skipping');
+    //   return;
+    // }
 
     // Do nothing if its not a pr or issue
     const isIssue: boolean = !!context.payload.issue;

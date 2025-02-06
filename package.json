@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/first-interaction.git"
+    "url": "git+https://github.com/fishstiz/is-first-interaction.git"
   },
   "keywords": [
     "actions",
@@ -23,9 +23,9 @@
   "contributors": ["fishstiz"],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/actions/first-interaction/issues"
+    "url": "https://github.com/fishstiz/is-first-interaction/issues"
   },
-  "homepage": "https://github.com/actions/first-interaction#readme",
+  "homepage": "https://github.com/fishstiz/is-first-interaction#readme",
   "dependencies": {
     "@actions/core": "file:toolkit/actions-core-1.10.0.tgz",
     "@actions/exec": "file:toolkit/actions-exec-1.1.1.tgz",

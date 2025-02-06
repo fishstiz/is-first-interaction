@@ -1,5 +1,5 @@
-name: 'First interaction'
-description: 'Greet new contributors when they create their first issue or open their first pull request'
+name: 'Is First interaction'
+description: 'Checks if contributor is new when they create their first issue or open their first pull request and optionally greet them'
 author: 'GitHub'
 inputs:
   repo-token:

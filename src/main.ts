@@ -56,8 +56,8 @@ async function run() {
       );
     }
     if (!firstContribution) {
-      console.log('Not the users first contribution');
-      return;
+      // console.log('Not the users first contribution');
+      throw new Error('Not the users first contribution');
     }
 
     // Do nothing if no message set for this type of contribution
